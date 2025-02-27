@@ -1,0 +1,25 @@
+Problem Set 3
+Please answer the below questions:
+
+
+
+"A. Write and share a small note about your choice of system to schedule periodic tasks (such as downloading a list of ISINs every 24 hours). 
+Why did you choose it? Is it reliable enough; Or will it scale? If not, what are the problems with it? And,
+what else would you recommend to fix this problem at scale in production?"
+
+Celery is a solid choice for scheduling periodic tasks due to its reliability, ease of use, and scalability.
+By addressing potential concerns and following best practices, it can be effectively used in production to handle tasks of varying complexity and frequency.
+
+
+
+"B. In what circumstances would you use Flask instead of Django and vice versa? "
+
+Use Flask:
+
+->For lightweight apps, microservices, or custom solutions.
+->When you need flexibility and minimal overhead.
+
+Use Django:
+
+->For full-stack apps with built-in features (admin, ORM, auth).
+->When rapid development and scalability are priorities.
